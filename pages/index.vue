@@ -1,11 +1,10 @@
 <template>
-  <v-container>
+  <div>
     <input type="file" name="file" @input="onInput($event)" />
-    <v-btn :loading="loading" :disabled="file == null" @click="submit"
-      >submit</v-btn
-    >
+    <button :disabled="file == null" @click="submit"
+      >submit</button>
     <pre>{{ progress }}</pre>
-  </v-container>
+  </div>
 </template>
 
 <script setup lang="ts">

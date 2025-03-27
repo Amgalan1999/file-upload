@@ -1,9 +1,0 @@
-@import url("./_colors.scss");
-@import url("./_typography.scss");
-@import url("./_override.scss");
-
-@import url("./components/_VButton.scss");
-@import url("./components/_VInput.scss");
-@import url("./components/_VCard.scss");
-@import url("./components/_VList.scss");
-@import url("./components/_VDataTable.scss");

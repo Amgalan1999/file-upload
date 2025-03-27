@@ -2,17 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/eslint"],
-
-  css: ["assets/scss/style.css"],
-
-  fonts: {
-    families: [{ name: "Montserrat", provider: "google" }],
-  },
-
-  build: {
-    transpile: ["vuetify"],
-  },
 
   runtimeConfig: {
     public: {
