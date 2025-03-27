@@ -1,0 +1,54 @@
+.v-input--density-default,
+.v-field--variant-solo,
+.v-field--variant-filled {
+  --v-input-control-height: 51px;
+  --v-input-padding-top: 14px;
+}
+.v-input--density-comfortable {
+  --v-input-control-height: 56px;
+  --v-input-padding-top: 17px;
+}
+.v-switch .v-label,
+.v-checkbox .v-label {
+  opacity: 1;
+  font-size: 0.875em !important;
+}
+.v-label {
+  opacity: 1;
+  font-size: 0.875rem;
+}
+
+input[type="text"]::placeholder,
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+input[type="password"],
+textarea,
+textarea::placeholder {
+  font-size: 14px !important;
+}
+
+.v-field--variant-outlined:not(.v-field--error) .v-field__outline__start,
+.v-field--variant-outlined:not(.v-field--error)
+  .v-field__outline__notch::before,
+.v-field--variant-outlined:not(.v-field--error) .v-field__outline__notch::after,
+.v-field--variant-outlined:not(.v-field--error) .v-field__outline__end {
+  border-color: rgb(var(--v-theme-strokeDark)) !important;
+  opacity: 1 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+// .v-checkbox--outlined {
+//   border: thin solid rgb(171, 171, 171) !important;
+//   border-radius: 6px;
+// }
